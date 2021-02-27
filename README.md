@@ -29,4 +29,5 @@ The following two features are reflected in the below GIF:
  - User sees app icon in home screen and styled launch screen.
  - User stays logged in across restarts.
 
+
 <img src='http://g.recordit.co/BBiDCHRPwR.gif' width=250 alt='Video Walkthrough' />
