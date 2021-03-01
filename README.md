@@ -29,7 +29,7 @@ Here's a walkthrough of implemented user stories:
 
 # Project 3 - Twitter (Part I)
 
-Twitter Client is a basic twitter app to read your tweets.
+This is a basic twitter app to read your tweets.
 
 Time spent: 8 hours spent in total
 
