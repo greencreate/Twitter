@@ -171,6 +171,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Char Limit: 280" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51X-ld-0Pg">
+                                <rect key="frame" x="198" y="162" width="167" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UHg-tY-pMI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -179,6 +185,8 @@
                             <constraint firstItem="UHg-tY-pMI" firstAttribute="bottom" secondItem="oUw-pO-OG5" secondAttribute="bottom" constant="495" id="2w2-4T-pX2"/>
                             <constraint firstItem="oUw-pO-OG5" firstAttribute="top" secondItem="UHg-tY-pMI" secondAttribute="top" id="Hwv-wg-1xZ"/>
                             <constraint firstItem="UHg-tY-pMI" firstAttribute="trailing" secondItem="oUw-pO-OG5" secondAttribute="trailing" id="QLf-6o-QFX"/>
+                            <constraint firstItem="51X-ld-0Pg" firstAttribute="top" secondItem="oUw-pO-OG5" secondAttribute="bottom" constant="10" id="XRC-b2-1hE"/>
+                            <constraint firstItem="UHg-tY-pMI" firstAttribute="trailing" secondItem="51X-ld-0Pg" secondAttribute="trailing" constant="10" id="rhd-OQ-Y3b"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nPh-LO-tqj">
@@ -196,12 +204,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="charLabel" destination="51X-ld-0Pg" id="Uek-WB-lYb"/>
                         <outlet property="tweetTextView" destination="oUw-pO-OG5" id="Ch3-PO-E9b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pxJ-DC-EWl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3633" y="205"/>
+            <point key="canvasLocation" x="3632.8000000000002" y="204.64767616191907"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yoh-1d-V2B">
@@ -246,6 +255,9 @@
     <resources>
         <image name="favor-icon" width="30" height="30"/>
         <image name="retweet-icon" width="30" height="30"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
