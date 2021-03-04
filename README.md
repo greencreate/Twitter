@@ -35,7 +35,7 @@ Here's a walkthrough of implemented user stories:
  </tr>
  <tr>
   <td width='300' >-User can compose a tweet<br>-User can favorite a tweet<br>-User can retweet a tweet</td>
-  <td>When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 280)</td>
+  <td width='300'>When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 280)</td>
  </tr>
 </table>
 
