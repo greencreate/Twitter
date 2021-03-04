@@ -19,16 +19,26 @@ class TweetViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var tweetTextView: UITextView!
     @IBOutlet weak var charLabel: UILabel!
     
-    func textView(_ tweetTextView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+    
+    //stylize tweet text view
+    func configureTweetTextView() {
+        //add rounded corners
+        tweetTextView.layer.cornerRadius = 20
         
-        // Set the max character limit
+        //add border
+        tweetTextView.layer.borderWidth = 1
+        tweetTextView.layer.borderColor = UIColor.red.cgColor
+    }
+    
+    func textView(_ tweetTextView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
         let characterLimit = 280
 
         // Construct what the new text would be if we allowed the user's latest edit
         let newText = NSString(string: tweetTextView.text!).replacingCharacters(in: range, with: text)
 
         //update character count label
-        let charCount = "\(String(newText.count))/280"
+        //let charCount = "\(String(newText.count))/280"
+        let charCount = String(280 - (newText.count))
         charLabel.text = charCount
 
         // The new text should be allowed? True/False
