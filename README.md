@@ -30,11 +30,11 @@ Here's a walkthrough of implemented user stories:
    <img src='http://g.recordit.co/UqeSBmrv1Y.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' /> 
   </td>
   <td>
-   <img src='https://media.giphy.com/media/ELowNFrrbkkDDzdKEo/giphy.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' /> 
+   <img src='https://media.giphy.com/media/mHVjzQEjkhzNKOZxyo/giphy.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' /> 
   </td>
  </tr>
  <tr>
-  <td>-User can compose a tweet<br>-User can favorite a tweet<br>-User can retweet a tweet</td>
+  <td width='300' >-User can compose a tweet<br>-User can favorite a tweet<br>-User can retweet a tweet</td>
   <td>When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 280)</td>
  </tr>
 </table>
