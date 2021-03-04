@@ -19,16 +19,17 @@ class TweetViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var tweetTextView: UITextView!
     @IBOutlet weak var charLabel: UILabel!
     
-    
+    /*
     //stylize tweet text view
     func configureTweetTextView() {
         //add rounded corners
-        tweetTextView.layer.cornerRadius = 20
-        
+        tweetTextView.layer.cornerRadius = 5
         //add border
+        let myColor = UIColor(red:222/255, green:222/255, blue:231/255, alpha: 1).cgColor
         tweetTextView.layer.borderWidth = 1
-        tweetTextView.layer.borderColor = UIColor.red.cgColor
+        tweetTextView.layer.borderColor = myColor
     }
+    */
     
     func textView(_ tweetTextView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
         let characterLimit = 280
