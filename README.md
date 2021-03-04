@@ -30,7 +30,7 @@ Here's a walkthrough of implemented user stories:
    <img src='http://g.recordit.co/UqeSBmrv1Y.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' /> 
   </td>
   <td>
-   <img src='https://media.giphy.com/media/mHVjzQEjkhzNKOZxyo/giphy.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' /> 
+   <img src='https://media.giphy.com/media/CzZm5bZg1xQsa9bNMf/giphy.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' /> 
   </td>
  </tr>
  <tr>
