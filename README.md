@@ -81,4 +81,20 @@ The following two features are reflected in the below GIF:
 <img src='http://g.recordit.co/BBiDCHRPwR.gif' width=250 alt='Video Walkthrough' />
 
 
+<table>
+ <tr>
+  <td> 
+   <img src='http://g.recordit.co/UjE2Hog2Oz.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' /> 
+  </td>
+  <td>
+   <img src='http://g.recordit.co/BBiDCHRPwR.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' /> 
+  </td>
+ </tr>
+ <tr>
+  <td width='300'>Required user stories</td>
+  <td width='300'>- User sees app icon in home screen and styled launch screen.<br>- User stays logged in across restarts.</td>
+ </tr>
+</table>
+
+
 
